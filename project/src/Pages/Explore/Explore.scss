@@ -1,0 +1,37 @@
+
+.explore {
+  width: 100%;
+  h1{
+    font-weight: 700;
+    font-size: 48px;
+    margin: 50px 0 ;
+  }
+  .explore__list{
+    display: flex;
+    button{
+      margin: 5px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      &:hover {
+        background-color: #dce6ff;
+        color: #3966f8;
+        
+      }
+    }
+    
+  }
+  .explore__item {
+    margin: 10px auto;
+  }
+  
+  .button__more{
+    text-align: center;
+    
+    button {
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 10px;
+      font-weight: 600;
+    }
+  }
+}

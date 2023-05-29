@@ -1,0 +1,56 @@
+.footer {
+  width: 100%;
+  
+  padding: 10px 100px;
+  background-color: hsla(0, 0%, 100%, 0.98);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  .footer__info {
+    display: flex;
+    margin-left: 10px;
+    &--image {
+      width: 60px;
+      height: 60px;
+      img {
+        border-radius: 10px;
+      }
+    }
+    &--title {
+      margin-left: 10px;
+      .music__name {
+        font-weight: 600;
+        margin-bottom: 9px;
+      }
+    }
+    &--heart {
+      margin: auto 20px;
+    }
+  }
+  .footer__button {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    span {
+      margin: 20px;
+    }
+  }
+  .footer__control {
+    font-size: 20px;
+    text-align: end;
+    line-height: 60px;
+    
+
+    span {
+      margin: 10px;
+    }
+    .angle {
+      padding: 5px;
+      border-radius: 7px;
+    }
+    .angle:hover {
+      background-color: rgb(230, 227, 222);
+    }
+  }
+}
